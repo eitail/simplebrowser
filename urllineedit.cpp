@@ -16,7 +16,7 @@
  * setVisible():使得Widget可见或不可见
  * setCursor():设置光标样子
  * qMax设置icon图退大高度，和尺寸
- *
+ *123
  *
 */
 UrlLineEdit::UrlLineEdit(QWidget *parent)
