@@ -10,6 +10,7 @@
 #include <QToolButton>
 #include <QUrl>
 
+ 
 /*
  * url地址栏改变时候触发的事件
  *setIcon():设置icon图
@@ -19,6 +20,7 @@
  *123
  *
 */
+ 
 UrlLineEdit::UrlLineEdit(QWidget *parent)
     : QLineEdit(parent)
     , m_favButton(new QToolButton(this))
