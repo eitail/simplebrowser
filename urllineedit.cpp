@@ -10,6 +10,15 @@
 #include <QToolButton>
 #include <QUrl>
 
+/*
+ * url地址栏改变时候触发的事件
+ *setIcon():设置icon图
+ * setVisible():使得Widget可见或不可见
+ * setCursor():设置光标样子
+ * qMax设置icon图退大高度，和尺寸
+ *
+ *
+*/
 UrlLineEdit::UrlLineEdit(QWidget *parent)
     : QLineEdit(parent)
     , m_favButton(new QToolButton(this))
